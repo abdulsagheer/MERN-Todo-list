@@ -1,0 +1,61 @@
+.verify-otp-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 2rem;
+		border: 1px solid #ccc;
+		border-radius: 0.5rem;
+		background-color: #f9f9f9;
+
+		h2 {
+			font-size: 2rem;
+			margin-bottom: 2rem;
+		}
+
+		.form-control {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 1rem;
+			width: 100%;
+
+			label {
+				font-size: 1.2rem;
+				margin-bottom: 0.5rem;
+			}
+
+			input {
+				padding: 0.5rem;
+				font-size: 1.2rem;
+				border: 1px solid #ccc;
+				border-radius: 0.5rem;
+				width: 100%;
+			}
+		}
+
+		.error {
+			color: red;
+			font-size: 1.2rem;
+			margin-bottom: 1rem;
+		}
+
+		button {
+			padding: 0.5rem 1rem;
+			font-size: 1.2rem;
+			border: none;
+			border-radius: 0.5rem;
+			background-color: #2196f3;
+			color: white;
+			cursor: pointer;
+
+			&:hover {
+				background-color: #0d8bf0;
+			}
+		}
+	}
+}
