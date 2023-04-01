@@ -14,7 +14,7 @@ export const AxiosRequest = async (
 			: {
 					"Content-Type": "application/json",
 			  },
-		data: body,
+		data: JSON.stringify(body),
 	};
 
 	// Axios instance
